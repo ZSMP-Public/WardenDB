@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <strong>Database Core of <a href="https://github.com/ZSMP-Public/WardenDB">Warden</a></strong>
+  <strong>Database Core of <a href="https://github.com/ZSMP-Public/Warden">Warden</a></strong>
 </p>
 
 
