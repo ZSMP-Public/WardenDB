@@ -1,9 +1,12 @@
 <p align="center">
-  <img src="https://github.com/ZSMP-Public/Warden/raw/main/assets/project/warden.png" alt="Warden" width="40%" />
+  <a href="https://github.com/ZSMP-Public/WardenDB">
+    <img src="https://github.com/ZSMP-Public/Warden/raw/main/assets/project/warden.png" alt="Warden" width="40%" />
+  </a>
 </p>
 <p align="center">
-  <strong>Database Core of [Warden](https://github.com/ZSMP-Public/WardenDB)</strong>
+  <strong>Database Core of <a href="https://github.com/ZSMP-Public/WardenDB">Warden</a></strong>
 </p>
+
 
 # ⚙️ Setup
 
