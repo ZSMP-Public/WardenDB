@@ -21,7 +21,7 @@ CREATE TABLE player_data (
     minecraft_uuid      VARCHAR(36) PRIMARY KEY,
     first_join         TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     last_join          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    playtime_minutes   INTEGER DEFAULT 0
+    playtime_minutes   INTEGER DEFAULT 0,
     is_online          BOOLEAN DEFAULT false,
     last_server        VARCHAR(64);
 );
