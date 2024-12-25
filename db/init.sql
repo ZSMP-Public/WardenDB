@@ -22,8 +22,11 @@ CREATE TABLE player_data (
     first_join         TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     last_join          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     playtime_minutes   INTEGER DEFAULT 0
+    is_online          BOOLEAN DEFAULT false,
+    last_server        VARCHAR(64);
 );
 
 CREATE INDEX idx_linking_requests_status ON linking_requests (status);
 CREATE INDEX idx_linking_requests_expires_at ON linking_requests (expires_at);
 CREATE INDEX idx_linked_accounts_minecraft_uuid ON linked_accounts (minecraft_uuid);
+CREATE INDEX idx_player_data_is_online ON player_data (is_online);
