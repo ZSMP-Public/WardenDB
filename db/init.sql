@@ -22,8 +22,7 @@ CREATE TABLE player_data (
     first_join         TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     last_join          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     playtime_minutes   INTEGER DEFAULT 0,
-    is_online          BOOLEAN DEFAULT false,
-    last_server        VARCHAR(64);
+    is_online          BOOLEAN DEFAULT false
 );
 
 CREATE INDEX idx_linking_requests_status ON linking_requests (status);
